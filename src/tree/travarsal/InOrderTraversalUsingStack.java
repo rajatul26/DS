@@ -25,6 +25,7 @@ public class InOrderTraversalUsingStack {
         if(root==null)
             return;
         Deque<Node> treeStack = new ArrayDeque<>();
+
         while (true){
             while(root.left!=null){
                 treeStack.push(root);
